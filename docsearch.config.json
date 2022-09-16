@@ -1,44 +1,46 @@
 {
   "index_name": "docs",
-  "sitemap_urls": ["https://docs.dyte.io/sitemap.xml"],
+  "sitemap_urls": [
+    "https://shiny-cobbler-beb129.netlify.app/sitemap.xml"
+  ],
   "start_urls": [
     {
-      "url": "https://docs.dyte.io/guides",
+      "url": "https://shiny-cobbler-beb129.netlify.app/guides",
       "tags": "guides",
       "selectors_key": "guides"
     },
     {
-      "url": "https://docs.dyte.io/react-ui-kit",
+      "url": "https://shiny-cobbler-beb129.netlify.app/react-ui-kit",
       "tags": "react-ui-kit",
       "selectors_key": "react-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/ui-kit",
+      "url": "https://shiny-cobbler-beb129.netlify.app/ui-kit",
       "tags": "ui-kit",
       "selectors_key": "ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/angular-ui-kit",
+      "url": "https://shiny-cobbler-beb129.netlify.app/angular-ui-kit",
       "tags": "angular-ui-kit",
       "selectors_key": "angular-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/vue-ui-kit",
+      "url": "https://shiny-cobbler-beb129.netlify.app/vue-ui-kit",
       "tags": "vue-ui-kit",
       "selectors_key": "vue-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/web-core",
+      "url": "https://shiny-cobbler-beb129.netlify.app/web-core",
       "tags": "web-core",
       "selectors_key": "web-core"
     },
     {
-      "url": "https://docs.dyte.io/react-native",
+      "url": "https://shiny-cobbler-beb129.netlify.app/react-native",
       "tags": "react-native",
       "selectors_key": "react-native"
     },
     {
-      "url": "https://docs.dyte.io/android",
+      "url": "https://shiny-cobbler-beb129.netlify.app/android",
       "tags": "android",
       "selectors_key": "android"
     },
@@ -70,7 +72,6 @@
     "https://docs.dyte.io/"
   ],
   "stop_urls": [],
-
   "selectors": {
     "default": {
       "lvl0": {
@@ -269,11 +270,15 @@
       "text": "article p, article li, article td:last-child"
     }
   },
-
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
